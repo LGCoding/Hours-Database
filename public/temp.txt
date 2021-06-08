@@ -1,0 +1,5 @@
+deleteHour
+deleteProject
+toggleProjectActive
+deletePerson
+togglePersonActive

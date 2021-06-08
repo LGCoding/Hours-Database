@@ -1,0 +1,35 @@
+{
+    "name": "rotary_hours",
+    "version": "0.0.1",
+    "description": "Lets the rotary of weston and wayland report hours",
+    "main": "server.js",
+    "author": {
+        "name": "Liam Gavin",
+        "email": "liamvgav@gmail.com"
+    },
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "async": "^2.6.0",
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.18.2",
+        "dotenv": "^4.0.0",
+        "express": "^4.17.1",
+        "express-rate-limit": "^2.11.0",
+        "helmet": "^3.12.0",
+        "helmet-csp": "^2.7.0",
+        "joi": "^13.3.0",
+        "jwt-simple": "^0.5.1",
+        "mongodb": "^3.0.8",
+        "morgan": "^1.9.0",
+        "response-time": "^2.3.2"
+    },
+    "devDependencies": {
+        "eslint": "^4.19.1",
+        "eslint-plugin-react": "^7.8.1",
+        "mocha": "^8.4.0",
+        "selenium-webdriver": "^3.6.0",
+        "supertest": "^3.0.0"
+    }
+}
